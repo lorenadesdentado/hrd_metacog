@@ -4,6 +4,7 @@ library(stringr)
 
 # Source the analysis function
 source("code/analyze_hrd_data.R")
+source("code/bin_confidence_quantiles.R")
 
 # Define the directory where HRD log files are located
 data_dir <- "studydata/"
